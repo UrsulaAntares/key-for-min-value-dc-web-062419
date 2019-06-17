@@ -1,7 +1,7 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-ikea = {:chair => 25, :table => 85, :mattress => 450}
+ikea = {:table => 85, :mattress => 450, :chair => 25}
 
 
 
@@ -15,11 +15,11 @@ def key_for_min_value(name_hash)
   puts array_of_values
 #  puts value
 #  puts key
-  while i<name_hash.length    
+  while i<array_of_values.length    
     if value < lowest_value
         lowest_value = value
 #       cheapest_thing = key
-        puts "#{lowest_value} for #{value}"
+        puts "The lowest value is #{lowest_value}}"
     end
     i+=1
     return cheapest_thing
