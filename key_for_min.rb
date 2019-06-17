@@ -15,12 +15,12 @@ def key_for_min_value(name_hash)
   while i<name_hash.length    
     if value[i] < lowest_value
         lowest_value = value[i]
-   #     cheapest_thing = key
+#       cheapest_thing = key
         puts "#{lowest_value} for #{value[i]}"
-        i+=1
-        return cheapest_thing
     end
-  
+    i+=1
+    return cheapest_thing
+  end
   print cheapest_thing
   return cheapest_thing
   end
