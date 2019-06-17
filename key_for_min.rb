@@ -17,8 +17,8 @@ def key_for_min_value(name_hash)
 #  puts value
 #  puts key
   while i<array_of_values.length    
-    if value[i] < lowest_value
-        lowest_value = value[i]
+    if array_of_values[i] < lowest_value
+        lowest_value = array_of_values[i]
 #       cheapest_thing = key
         puts "The new lowest value is #{lowest_value}}"
     end
