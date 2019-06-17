@@ -25,7 +25,7 @@ def key_for_min_value(name_hash)
     i+=1
 #    return cheapest_thing
   end
-  puts array_of_values
+
   print cheapest_thing
   return cheapest_thing
   end
