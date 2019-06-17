@@ -26,8 +26,11 @@ def key_for_min_value(name_hash)
    lowest_value = lowest_value
   end
   print "And we've decided the lowest value is #{lowest_value}"
-  print cheapest_thing
-  return cheapest_thing
+  name_hash.each do |key, value|
+    if value == 25
+      return key
+    end
+  end
 
 end
 
