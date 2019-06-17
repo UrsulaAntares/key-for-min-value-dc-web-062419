@@ -23,7 +23,7 @@ def key_for_min_value(name_hash)
         puts "The new lowest value is #{lowest_value}"
     end
     i+=1
-   return lowest_value = lowest_value
+   lowest_value = lowest_value
   end
   print "And we've decided the lowest value is #{lowest_value}"
   print cheapest_thing
