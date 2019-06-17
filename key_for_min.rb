@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
   lowest_value = 10000
   i=0
   cheapest_thing = "TBD"
-  name_hash.each_with_index do |(key, value), i|
+  name_hash.each_with_index do |key, value|
 #  array_of_values << value
   puts value[2]
   puts key[2]
