@@ -6,7 +6,7 @@ ikea = {:table => 85, :mattress => 450, :chair => 25}
 
 
 def key_for_min_value(name_hash)
-  if name_hash == true
+  if name_hash != {}
     array_of_values=[]
     lowest_value = 10000
     i=0
