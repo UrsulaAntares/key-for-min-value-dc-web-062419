@@ -7,7 +7,7 @@ name_hash = {:chair => 25, :table => 85, :mattress => 450}
 
 def key_for_min_value(name_hash)
   array_of_values=[]
-  lowest_value =
+  lowest_value = nil
   i=0
   cheapest_thing = "TBD"
   name_hash.each do |key, value|
