@@ -28,7 +28,7 @@ def key_for_min_value(name_hash)
 
   print cheapest_thing
   return cheapest_thing
-  end
+
 end
 
 key_for_min_value(ikea)
