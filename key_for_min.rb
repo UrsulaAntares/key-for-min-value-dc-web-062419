@@ -7,12 +7,11 @@ def key_for_min_value(name_hash)
   i=0
   cheapest_thing = "TBD"
   name_hash.each do |key, value|
-  array_of_values << value
+#  array_of_values << value
       
-  while value[i] < lowest_value
-      lowest_value = i
-      cheapest_thing = 
-      i+=1
+  if value < lowest_value
+      lowest_value = value
+      cheapest_thing = key
   end
   
   return 
